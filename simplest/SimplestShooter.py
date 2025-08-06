@@ -1,6 +1,6 @@
 from simkit.base import SimEntityBase
 from math import nan, isnan
-from simkit.rand import RandomVariate, DiscreteUniform
+from simkit.rand import RandomVariate
 
 class SimplestShooter(SimEntityBase):
     def __init__(self, all_ships, number_missiles, response_time, travelTime):
